@@ -1,0 +1,28 @@
+@import url('../../../../css_Variables/variables.css');
+
+.container{
+
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: black;
+  
+}
+
+.container > ul{
+  display: flex;
+  gap: 70px;
+}
+
+.container > ul > li{
+  list-style: none;
+  color: black;
+}

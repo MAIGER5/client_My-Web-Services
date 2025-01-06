@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import styles from './screenFirts.module.css'
 
-export const screenFirts = () => {
+export const ScreenFirts = () => {
   return (
-    <div>screenFirts</div>
+    <div className={styles.container}>
+      hola mundo
+    </div>
   )
 }

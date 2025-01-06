@@ -1,0 +1,9 @@
+@import url('../../css_Variables/variables.css');
+
+.container{
+  margin-top: 55px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: white;
+
+}
